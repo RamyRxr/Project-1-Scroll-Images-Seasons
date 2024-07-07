@@ -1,3 +1,4 @@
+
 body {
   min-height: 100vh;
   font-family: sans-serif;
@@ -7,6 +8,7 @@ body {
   height: 500px;
   overflow: hidden;
   margin: 0;
+  background-color: #220460;
 }
 
 .container {
@@ -26,7 +28,6 @@ body {
   position: relative;
   transform: scale(1);
   transition: flex  0.8s ease-in;
-  /* transition: transfrom  0.8s ease-in; */
 }
 
 .panel h3 {
@@ -47,6 +48,7 @@ body {
 .panel.active h3 {
   opacity: 1;
   transition: opacity 0.3s ease-in 0.4s;
+  
 }
 
 
